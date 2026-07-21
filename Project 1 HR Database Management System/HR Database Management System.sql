@@ -1025,7 +1025,7 @@ SELECT
     END AS anniversary_status
 FROM employees;
 
--- B. Write a Query If the salary is less than 3000, the CASE expression returns “Low”. If the salary is between 3000 and 5000, it returns “average”. When the salary is greater than 5000, the CASE expression returns “High”
+-- B. Write a Query If the salary is less than 3000, the CASE expression returns Â“LowÂ”. If the salary is between 3000 and 5000, it returns Â“averageÂ”. When the salary is greater than 5000, the CASE expression returns Â“HighÂ”
 
 SELECT first_name, salary, 
 CASE
@@ -1146,7 +1146,7 @@ The join between employees and their managers reveals a major "Span of Control" 
 
 Steven (ID 100) is currently managing 15 direct reports.
 
-Data Insight: In high-performance environments, once a manager exceeds 8–10 reports, they lose the ability to provide meaningful 1-on-1 development. Steven is likely a bottleneck for departmental approvals.
+Data Insight: In high-performance environments, once a manager exceeds 8Â–10 reports, they lose the ability to provide meaningful 1-on-1 development. Steven is likely a bottleneck for departmental approvals.
 
 Optimization: We should look at promoting high-performers under Steven (like Neena or Nancy, who already manage 5 people each) to absorb some of his direct reports.
 
@@ -1169,6 +1169,6 @@ Data Insight: Maintaining entities in 21 countries without active employees or l
 Key Recommendations
 Leveling: Review the "Negative Variance" group. If these are "Programmers" or "Accountants," they are likely being underpaid relative to the internal average, making them easy targets for recruiters.
 
-Structural Reorg: Offload at least 5 of Steven’s direct reports to mid-level managers to improve decision-making speed.
+Structural Reorg: Offload at least 5 of StevenÂ’s direct reports to mid-level managers to improve decision-making speed.
 
-Entity Consolidation: Investigate the cost of maintaining the "Ghost" countries. If there’s no immediate plan to hire in Nigeria or Switzerland, we should consider de-registering those entities to save on compliance costs.*/
+Entity Consolidation: Investigate the cost of maintaining the "Ghost" countries. If thereÂ’s no immediate plan to hire in Nigeria or Switzerland, we should consider de-registering those entities to save on compliance costs.*/
