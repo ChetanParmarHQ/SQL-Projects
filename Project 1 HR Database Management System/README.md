@@ -22,9 +22,7 @@ The HR database models a company's people and organizational structure across se
 
 ## 🗂️ Entity Relationships
 
-```
-![Project Screenshot](Entity%20Relationships.jpg)
-```
+![Project Screenshot](./Entity-Relationships.jpg)
 
 - Each region has many countries; each country has many locations.
 - Each location has many departments; each department has many employees.
@@ -37,8 +35,8 @@ The HR database models a company's people and organizational structure across se
 
 | File | Description |
 | --- | --- |
-| `HR DATABASE MANAGEMENT SYSTEM.sql` | Full SQL script: `CREATE TABLE` statements, `INSERT` data for all 7 tables, and query solutions. |
-| `HR DATABASE MANAGEMENT SYSTEM.pdf` | Project documentation: schema diagrams, table overview, and all task/problem statements. |
+| `HR Database Management System.sql` | Full SQL script: `CREATE TABLE` statements, `INSERT` data for all 7 tables, and query solutions. |
+| `HR Database Management System.pdf` | Project documentation: schema diagrams, table overview, and all task/problem statements. |
 
 ---
 
