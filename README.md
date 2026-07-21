@@ -10,6 +10,8 @@ Maintained by **Chetan Parmar**.
 
 This repository is a growing portfolio of hands-on SQL work. Every project follows the same idea: take a real or sample dataset, model it in a relational database, and answer practical business questions through progressively richer queries (retrieval, filtering, joins, aggregation, and subqueries).
 
+The repository also includes an **Assignments** directory with focused SQL practice tasks that build core database skills from basics to advanced topics.
+
 New projects will be added over time, each as a self-contained folder.
 
 ---
@@ -24,6 +26,21 @@ New projects will be added over time, each as a self-contained folder.
 
 ---
 
+## Assignments
+
+The [Assignments](./Assignments) directory contains four CoachX SQL assignments, each with a `.sql` script and a `.pdf` brief.
+
+| # | Assignment | Focus |
+|---|------------|-------|
+| 1 | Items and Products Database | Filtering, joins, subqueries, stored procedures, and triggers |
+| 2 | Employee Details and Employee Salary | Classic SQL interview questions and multi-table logic |
+| 3 | University DBMS | DDL, string and date functions, joins, views, and procedures |
+| 4 | SELECT, Update, Insert Queries | Library schema with query and data-modification exercises |
+
+See the README inside the Assignments folder for full details.
+
+---
+
 ## Repository structure
 
 ```
@@ -34,6 +51,17 @@ SQL-Projects/
 |   |-- HR Database Management System.pdf     # Project brief and documentation
 |   |-- Entity-Relationships.jpg              # ER diagram of the schema
 |   |-- README.md                             # Project-specific README
+|
+|-- Assignments/
+|   |-- CoachX Assignment 1 Items Product DB.sql
+|   |-- Assignment 1 Items Product DB.pdf
+|   |-- CoachX Assignment 2 Employee Details Employee Salary.sql
+|   |-- Assignment 2 Employee Details Employee Salary.pdf
+|   |-- CoachX Assignment 3 University DBMS.sql
+|   |-- Assignment 3 University DBMS.pdf
+|   |-- CoachX Assignment 4 SELECT, Update, Insert Queries.sql
+|   |-- Assignment 4 SELECT, Update, Insert Queries.pdf
+|   |-- README.md                             # Assignments overview
 |
 |-- README.md                                 # You are here
 ```
@@ -52,11 +80,11 @@ Project N <Name>/
 
 ## How to use these projects
 
-1. Open the folder for the project you are interested in.
-2. Read that project's README for context, schema, and objectives.
+1. Open the folder for the project or assignment you are interested in.
+2. Read that folder's README for context, schema, and objectives.
 3. Open the `.sql` file in your SQL client (SQL Server Management Studio, Azure Data Studio, or similar).
 4. Run the setup or schema section first, then execute the query blocks in order.
-5. Compare your results with the findings described in the project README.
+5. Compare your results with the findings described in the README.
 
 ---
 
@@ -72,6 +100,7 @@ Project N <Name>/
 ## Roadmap
 
 - [x] Project 1: HR Database Management System
+- [x] Assignments: four CoachX SQL practice sets
 - [ ] Additional SQL projects (data analysis, reporting, and case studies)
 
 ---
